@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 body{
@@ -9,11 +10,11 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #222;
+  background: #681515;
   overflow: hidden;
 }
 h2{
-  color: #333;
+  color: #efefef;
   font-size: 5em;
   user-select: none;
   text-align: center;
@@ -30,7 +31,7 @@ i{
 @keyframes animate {
   0%{
     opacity: 1;
-    transform: translate(-50%,-50%);
+    transform: translate(0,0);
   }
   100%{
     opacity: 0;
