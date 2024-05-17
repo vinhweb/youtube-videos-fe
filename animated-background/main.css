@@ -36,7 +36,7 @@ body{
 }
 @keyframes animate {
   0%, 100% {
-    transform: translateX(-100vw);
+    transform: translateX(-50vw);
   }
   50%{
     transform: translateX(0vw);
@@ -47,7 +47,7 @@ body{
 }
 @keyframes animate2 {
   0%, 100% {
-    transform: translateX(100vw);
+    transform: translateX(50vw);
   }
   50%{
     transform: translateX(0vw);

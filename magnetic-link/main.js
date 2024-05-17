@@ -5,7 +5,7 @@ document.addEventListener('mousemove', (e) => {
 })
 
 
-let item = document.querySelectorAll('ul li').forEach(item => {
+document.querySelectorAll('ul li')?.forEach(item => {
   item.addEventListener('mousemove', (e) => {
     let x = e.offsetX
     let y = e.offsetY
